@@ -1,0 +1,39 @@
+*{margin: 0px;padding: 0px;}
+.navbar{margin: 5px;
+    border-radius: 10px ;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+    position: fixed;
+    background-color: pink;
+}
+#links{
+    display: inline;}
+
+#links a{
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(240, 33, 137);
+    color: black;
+    opacity: .75;
+    transition: .4s;
+}
+#links a:hover{
+ opacity: 1;
+ transition: .4s;}
+ .banner{
+    background-image: url(0c2f2c69e213f69e47fde6669cada760_4670669752708946180.jpg) ;
+    height:200px;
+    position: relative;
+ }
+ .banner a{
+    border-radius: 5px;
+    position: absolute;
+    padding: 3px;
+    background-color: darkorchid;
+    right: 29%;
+    bottom: 50%;
+ }
